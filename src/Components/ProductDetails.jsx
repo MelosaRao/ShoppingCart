@@ -32,7 +32,7 @@ export default function ProductDetails(){
         </h3>
 
         <p>{item.description}</p>
-        <Link to="/Shop"><button class="text-slate-50 text-base text-transform: uppercase p-2 m-2 bg-sky-500 rounded-full transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600">Continue Shopping</button></Link>
+        <Link to="/"><button class="text-slate-50 text-base text-transform: uppercase p-2 m-2 bg-sky-500 rounded-full transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600">Continue Shopping</button></Link>
         </div>
         </div>
         </div>
