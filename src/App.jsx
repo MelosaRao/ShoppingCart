@@ -11,24 +11,7 @@ function App() {
     setShowCart(!showCart)}
       return(
       <CartProvider>
-        <nav class="bg-slate-500 flex p-5 justify-between text-white text-xl">
-        <div class="flex">
-        <Link to="/Home"  class="group border-x-2 px-4"> 
-         Home
-        <div class="bg-white h-[3px] w-0 group-hover:w-full transition-all duration-500"></div>
-       
-        
-        </Link>
-        <Link to ="/" class="group border-r-2 px-4">
-        Shop
-        <div class="bg-white h-[3px] w-0 group-hover:w-full transition-all duration-500"></div>
-          
-           </Link>
-        </div>
-        
-        <button class="text-lg border-2 px-2 bg-white text-slate-950 transition hover:scale-110" onClick={()=>toggle()}>Cart</button>
-    </nav>
-      
+      <Header toggle={toggle}/>
       <Outlet/>
       {showCart&&<Cart close={toggle}/>}
       
