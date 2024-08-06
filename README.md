@@ -4,6 +4,9 @@ A dynamic and easy to use Shopping cart application built using React, React Rou
 ## Technologies
 React, React Router and Tailwind CSS. Also made use of Context API and Fetch API
 
+## Live Preview
+https://shopping-cart-gold-eta.vercel.app/
+
 ## Description
 - Used React Router to render Home, Shop and individual product pages on appropriate routes
 - Used fetch API to access the list on products <a href="https://fakestoreapi.com/">FakeStore API</a>
