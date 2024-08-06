@@ -2,7 +2,7 @@
 A dynamic and easy to use Shopping cart application built using React, React Router and tailwind CSS. 
 
 ## Technologies
-React, React Router and Tailwind CSS. Also made use of Context API and Fetch API
+React, React Router and Tailwind CSS. 
 
 ## Live Preview
 https://shopping-cart-gold-eta.vercel.app/
@@ -13,9 +13,9 @@ https://shopping-cart-gold-eta.vercel.app/
 - Used an Outlet Component and nested Routes to ensure that a navigation bar is consistantly displayed on all pages
 - Used Context API to store cart data and make sure all components can easily access cart data
 - Used Tailwind css including animations and grid and flex layouts to make the project interactive and responsive for all screen sizes
-- Made use of dynamic segments to render individual urls for each product
-- User can easily view total items in cart and acess their cart when click on cart button
-- A checkout option is available to user that clears the cart
+- Used of dynamic segments to render individual urls for each product
+- Users can view total items in cart and access their cart 
+- A checkout option clears the cart
 - Local Storage for cart data is implemented
   
 ## Updates
