@@ -1,8 +1,23 @@
-# React + Vite
+# Shopping Cart App
+A dynamic and easy to use Shopping cart application built using React, React Router and tailwind CSS. 
 
-Laptop image by <a href="https://www.freepik.com/free-photo/modern-stationary-collection-arrangement_23441437.htm#fromView=search&page=1&position=0&uuid=e1efa232-998a-4990-8d0c-a67599e855b5">Image by freepik</a>
+## Technologies
+React, React Router and Tailwind CSS. Also made use of Context API and Fetch API
 
-Cloths <a href="https://www.pexels.com/photo/assorted-clothes-996329/">Image by Kai Pilger on Pexcel</a>
-
-
-<a href="https://www.freepik.com/free-vector/realistic-black-background-with-realistic-elements_20187420.htm#fromView=search&page=1&position=2&uuid=f7665004-0784-4e33-a507-ee20b1de0868">Image by pikisuperstar on Freepik</a>
+## Description
+- Used React Router to render Home, Shop and individual product pages on appropriate routes
+- Used fetch API to access the list on products <a href="https://fakestoreapi.com/">FakeStore API</a>
+- Used an Outlet Component and nested Routes to ensure that a navigation bar is consistantly displayed on all pages
+- Used Context API to store cart data and make sure all components can easily access cart data
+- Used Tailwind css including animations and grid and flex layouts to make the project interactive and responsive for all screen sizes
+- Made use of dynamic segments to render individual urls for each product
+- User can easily view total items in cart and acess their cart when click on cart button
+- A checkout option is available to user that clears the cart
+- Local Storage for cart data is implemented
+  
+## Updates
+  Future Updates may include:
+- A Search tool to locate products
+- Filtering Product by Category
+- Adding "You May Also Like" Section on each product page
+- Integrating Shopping Cart with a backend inventory management system
