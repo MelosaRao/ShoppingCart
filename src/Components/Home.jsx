@@ -13,7 +13,7 @@ function Home() {
       
       <ImageCarousel></ImageCarousel>
 
-      <Link to="/Shop"><button class="text-slate-50 text-xl text-transform: uppercase p-5 m-3 bg-sky-500 rounded-full transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600">Shop Now</button></Link>
+      <Link to="/"><button class="text-slate-50 text-xl text-transform: uppercase p-5 m-3 bg-sky-500 rounded-full transition hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600">Shop Now</button></Link>
 
     </div>
   )
